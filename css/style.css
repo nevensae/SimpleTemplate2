@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.image {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.desno {
+	float: right;
+	width: 30%;
+	display: inline-block;
+	background-color: #C2B280;
+	height: 700px;
+	
+}
+
+.levo {
+	width: 60%;
+	display: inline-block;
+}
+
+h4 {
+	margin-left: 15px;
+}
+
+div a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.vertical { float: left; width: 50%; padding: 15px; 
+} 
+.row:after { content: ""; display: table; clear: both; 
+}
+
+h3 {
+	text-decoration: underline;
+}
